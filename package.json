@@ -1,7 +1,7 @@
 {
   "name": "Popover State Chart",
   "version": "1.0.0",
-  "description": "A state chart for controlling all types of tooltips popovers modals etc",
+  "description": "A  state chart for controlling all types of tooltips popovers modals etc",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open",
