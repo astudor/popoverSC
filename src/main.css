@@ -2,3 +2,21 @@ h1 {
   color: white;
   background: teal;
 }
+
+.ttp-default {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 15px;
+}
+#some-other {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+#some-other.blue {
+  background: blue;
+}
+.hide {
+  display: none !important;
+}

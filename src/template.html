@@ -6,10 +6,57 @@
     <title>Webpack Demo</title>
   </head>
   <body>
-    <h1>
+    <div id="ttp-box" data-ttp-type="default">
+      <button class="ttp-trigger" data-name="bar">
+        click here to trigger ttp
+      </button>
+      <button class="ttp-trigger" data-name="fuu">
+        click here to trigger ttp
+      </button>
+      <button class="ttp-trigger" data-name="baz">
+        click here to trigger ttp
+      </button>
+      <button class="ttp-trigger" data-name="buhu">
+        click here to trigger ttp
+      </button>
+
+      <div id="some-other" class="gray pink" data-should-go="whatever"></div>
+      <div id="q"></div>
+      <div id="static-change" class="some cls here"></div>
+    </div>
+
+    <div id="box-2" style="margin-top: 40px;">
+      <p>Paragraph 0</p>
+      <p id="referenceEl">Paragraph 2 to be inserted htmlEl before this one</p>
+
+      <div style="margin-top: 20px">
+        <p id="insertHtmlToThisEl">insert span before ending this paragraph</p>
+      </div>
+
+      <div style="margin-top: 40px">
+        <p>following divs will be removed</p>
+        <div id="remove1">remove 1</div>
+        <div id="remove2">remove 2</div>
+      </div>
+
+      <p>dynamic identified Elements to be added/removed</p>
+      <div id="runtime-el-1">remove dynamic el 1</div>
+
+      <p>neutral paragraph</p>
+      <p id="runtime-el-2">
+        element dynamically identified to be relative to other element inserted
+        before it
+      </p>
+
+      <div id="remove-3" style="background:red">
+        identify dynamically and remove
+      </div>
+    </div>
+
+    <!-- <h1>
       Hello world!
     </h1>
 
-    <img src="./assets/webpack.svg" />
+    <img src="./assets/webpack.svg" /> -->
   </body>
 </html>
