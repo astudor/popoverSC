@@ -1,7 +1,7 @@
 {
-  "name": "webpack-setup",
+  "name": "Popover State Chart",
   "version": "1.0.0",
-  "description": "basic webpack setup",
+  "description": "A state chart for controlling all types of tooltips popovers modals etc",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open",
@@ -11,8 +11,12 @@
     "type": "git"
   },
   "keywords": [
-    "webpack setup",
-    "project init"
+    "state chart",
+    "popover controller",
+    "popup controller",
+    "modal controller",
+    "overlayer controller",
+    "tooltip controller"
   ],
   "author": "Sorin Andrei",
   "license": "ISC",
